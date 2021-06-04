@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:vaccine_finder/main.dart';
+import 'package:vaccine_finder/widget/homepage.dart';
 
 class SplashSCreen extends StatefulWidget {
   @override
