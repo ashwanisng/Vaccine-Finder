@@ -41,6 +41,19 @@ The [API Setu](https://apisetu.gov.in/) was used to fetch slots. <br>
 | [**Shared Preferences**](https://pub.dev/packages/shared_preferences)| Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Android.|
 
 
+## 📸 ScreenShots
+
+<!-- <img src="ss/mockup.png"/> -->
+
+| Light                             | Dark                              |
+| --------------------------------- | --------------------------------- |
+| <img src="screenshot/ss.jpg" width="200" height="400">  | <img src="screenshot/ss4.jpg" width="200" height="400">  |
+| <img src="screenshot/ss1.jpg" width="200" height="400">  | <img src="screenshot/ss5.jpg" width="200" height="400">  |
+| <img src="screenshot/ss2.jpg" width="200" height="400">  | <img src="screenshot/ss6.jpg" width="200" height="400">  |
+| <img src="screenshot/ss3.jpg" width="200" height="400">  | <img src="screenshot/ss7.jpg" width="200" height="400">  |
+
+
+
 ## Contribution Guidelines🏗
 
 Missing any of your favorite features, which you think you can add to it❓ Invite you to contribute to this project and make it better?
