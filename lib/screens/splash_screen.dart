@@ -27,11 +27,13 @@ class _SplashSCreenState extends State<SplashSCreen> {
       backgroundColor: Color(0xff676FFE),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
               'assets/images/vaccine.png',
-              height: 120,
+              height: 150,
             ),
+            SizedBox(height: 30),
             CircularProgressIndicator(
               valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
             ),
