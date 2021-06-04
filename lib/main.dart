@@ -1,11 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:vaccine_finder/screens/homepage.dart';
+import 'package:vaccine_finder/screens/splash_screen.dart';
 import 'package:vaccine_finder/theme/style.dart';
 import 'package:vaccine_finder/theme/theme_provider.dart';
 
 void main() {
-  runApp(HomePage());
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: SplashSCreen(),
+    );
+  }
 }
 
 class HomePage extends StatefulWidget {
@@ -34,6 +44,7 @@ class _HomePageState extends State<HomePage> {
       child: Consumer<ThemeProvider>(
         builder: (context, value, child) {
           return MaterialApp(
+            debugShowCheckedModeBanner: false,
             theme: Style.themeData(themeProvider.darkTheme),
             home: Scaffold(
               appBar: AppBar(
