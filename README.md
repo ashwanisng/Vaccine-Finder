@@ -70,7 +70,7 @@ git clone --depth 1 https://github.com/<your_user_name>/Vaccine-Finder.git
 **3.** Navigate to the project directory :file_folder: .
 
 ```
-cd DocLense
+cd Vaccine-Finder
 ```
 
 **4.** Add a reference(remote) to the original repository.
